@@ -8,7 +8,7 @@ const findmissing = (a) => {
       j++;
     }
   }
-  console.log(a,j);
+  console.log(a,j);   
   for(let i=0;i<=j;i++){
     let val=a[i];
     if(val-1<j && a[val-1]>0){
