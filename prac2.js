@@ -4,6 +4,10 @@ const binarysearch = (a, target) => {
   let r = a.length - 1;
   let l = 0;
 
+  let skills="JavaScript, HTML, CSS, React, Node.js, Python";
+  let aray= skills.split(",");
+  console.log(aray);
+
   while (l <= r) {
     let mid = Math.floor((l + r) / 2);
     if (a[mid] === target) {
@@ -14,6 +18,7 @@ const binarysearch = (a, target) => {
       l++;
     }
   }
+  
 };
 
 console.log(binarysearch(a,5));

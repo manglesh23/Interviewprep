@@ -10,7 +10,7 @@ const nextgreaterelement = (a) => {
       stack.pop();
     }
     if (stack.length > 0) {
-      result[i] = stack[stack.length-1];
+      result[i] = stack[stack.length - 1];
     }
     stack.push(a[i]);
   }

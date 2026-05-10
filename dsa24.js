@@ -1,0 +1,1 @@
+const s=["manglesh","rajasthan","haryana",'delhi','mp','sikkim'];
